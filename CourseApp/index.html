@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+    <title> Course</title>
+</head>
+
+<body>
+
+<div class="container mt3">
+    <h1>Kursunuzu Ekleyin</h1>
+
+    <div class="row">
+        <div class="col-md-5">
+            <form id="new-course">
+                <div class="form-group">
+                    <label for="title">Kurs Başlığı</label>
+                    <input type="text" class="form-control" id="title">
+                </div>
+                <div class="form-group">
+                    <label for="instructor">Eğitmen</label>
+                    <input type="text" class="form-control" id="instructor">
+                </div>
+                <div class="form-group">
+                    <label for="image">Fotoğraf</label>
+                    <input type="text" class="form-control" id="image">
+                </div>
+                <button type="submit" class="btn btn-primary" >Kaydet</button>
+            </form>
+        </div>
+        <div class="col-md-7 mt-4">
+        <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Fotoğraf</th>
+                <th>Kurs</th>
+                <th>Eğitmen</th>
+                <th></th>
+            </tr>
+        </thead>
+            <tbody id="course-list">
+
+            </tbody>
+        </table>
+        </div>
+
+
+
+        <div class="col-md-7">
+
+        </div>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
